@@ -1,12 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import { FaLinkedin, FaGithub, FaFacebook, FaDownload } from 'react-icons/fa';
 
 const Hero = () => {
   const typedElement = useRef(null);
 
   useEffect(() => {
     const options = {
-      strings: ['I am a Front-End Web Developer.', 'I am a MERN Stack Developer.', 'I create modern websites.'],
+      strings: ['I am a MERN Stack Web Developer.', 'I am a Front-End Web Developer.', 'I create modern websites.'],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
@@ -19,28 +20,40 @@ const Hero = () => {
     };
   }, []);
   return (
-    <section id="hero" className="h-[calc(100vh-80px)] flex items-center">
+    <section id="hero" className="h-[calc(100vh-130px)] flex items-center">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="md:w-3/4 text-center md:text-left">
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight animate-text-focus-in">
-            <span className="text-gray-400">Hi, I am</span> Sharful.
+            <span className="text-gray-400">Hello, I am</span> <span classname="text-inherit bg-gradient-to-r from-green-600 to-orange-600">Sharful.</span>
             <br />
-            <span ref={typedElement} className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-orange-600 text-3xl md:text-4xl h-32"></span>
+            <span ref={typedElement} className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-orange-600 text-3xl md:text-4xl lg:text-5xl h-32"></span>
           </h1>
-          <p className="mt-6 text-lg md:text-xl text-gray-300">
-            I am a passionate React developer specializing in creating beautiful, functional, and high-performance web applications.
+          <p className="mt-6 text-lg md:text-xl lg:text-2xl text-gray-300">
+            I am a passionate MERN Stack Web Developer specializing in <br/> creating beautiful, functional, and high-performance web applications.
           </p>
           <div className="mt-8 flex justify-center md:justify-start gap-4">
-          <a href="https://drive.google.com/file/d/18cwim6eUq645KSHWVC6yytCuJGCYJHfh/view?usp=sharing" download target="_blank" rel="noopener noreferrer" className="btn-custom-gradient-border group rounded-xl">
-            <span className="btn-content">
+            <button href="https://www.linkedin.com/in/sharful-islam/" target="_blank" rel="noopener noreferrer" className="flex  border border-gray-400 rounded-xl p-3 hover:bg-gray-800 gap-2">
+              <FaLinkedin className="text-2xl" />LinkedIn
+            </button>
+            <button href="https://github.com/Sharful-Islam" target="_blank" rel="noopener noreferrer" className="flex border border-gray-400 rounded-xl p-3 hover:bg-gray-800 gap-2">
+              <FaGithub className="text-2xl" />GitHub
+            </button>
+            <button href="https://www.facebook.com/sharful.islam.10/" target="_blank" rel="noopener noreferrer" className="flex border border-gray-400 rounded-xl p-3 hover:bg-gray-800 gap-2">
+              <FaFacebook className="text-2xl" />Facebook
+            </button>
+          </div>
+          <div className="mt-8 flex justify-center md:justify-start gap-4">
+          <a href="https://drive.google.com/file/d/1rZB-20WeviLwo7dudoeTdYsiKzvyglQ4/view?usp=sharing" download target="_blank" rel="noopener noreferrer" className="btn-custom-gradient-border group rounded-xl">
+            <span className="btn-content flex items-center gap-2">
+              <FaDownload />
               Download Resume
             </span>
           </a>
         </div>
         </div>
-        <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
-            <img src="/src/assets/portfolio-profile-photo_md-sharful-islam.png" alt="Md Sharful Islam" className="w-full h-full object-cover ring-2" />
+        <div className="md:w-1/4 mt-8 md:mt-0 flex justify-center">
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full">
+            <img src="/src/assets/portfolio-profile-photo_md-sharful-islam.png" alt="Md Sharful Islam" className="w-full h-full object-cover rounded-full ring-4 ring-offset-4 ring-offset-slate-900 ring-green-500" />
           </div>
         </div>
       </div>

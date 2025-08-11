@@ -10,14 +10,14 @@ export default function Contact() {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 border border-gray-700 rounded-xl p-8">
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-8 text-gray-100 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          Get in Touch
+          Contact Me
         </motion.h2>
         <motion.p
           className="text-lg md:text-xl text-gray-300 mb-8 text-center"
@@ -35,7 +35,7 @@ export default function Contact() {
           >
             <input
               type="text"
-              placeholder="Your Name"
+              placeholder="Enter your name"
               className="w-full p-4 rounded-xl border border-gray-700 bg-gray-800 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </motion.div>
@@ -46,7 +46,7 @@ export default function Contact() {
           >
             <input
               type="email"
-              placeholder="Your Email"
+              placeholder="Enter your email"
               className="w-full p-4 rounded-xl border border-gray-700 bg-gray-800 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </motion.div>
@@ -56,7 +56,7 @@ export default function Contact() {
             transition={{ delay: 0.6, duration: 0.5 }}
           >
             <textarea
-              placeholder="Your Message"
+              placeholder="Enter your message"
               className="w-full p-4 rounded-xl border border-gray-700 bg-gray-800 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
               rows="5"
             ></textarea>

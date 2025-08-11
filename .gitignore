@@ -1,2 +1,8 @@
 # node modules
 node_modules
+
+# local development settings
+GEMINI.md
+logs.md
+
+
