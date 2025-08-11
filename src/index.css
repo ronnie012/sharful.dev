@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@layer components {
+  .btn-custom-gradient-border {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    @apply font-medium text-white;
+    background: #1a0537; /* Solid background for the button */
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.75rem; /* Apply the new rounded-xl from tailwind.config.js */
+  }
+
+  .btn-custom-gradient-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #00bcd4, #2196f3, #9c27b0, #e91e63, #ffeb3b, #00bcd4);
+    background-size: 400% 400%;
+    z-index: -1; /* Behind the content */
+    filter: blur(4px); /* Reduced blur for clearer colors */
+    opacity: 0.7; /* Always visible, subtle glow */
+    animation: gradient-border-animation 6s linear infinite; /* Continuous animation */
+  }
+
+  .btn-custom-gradient-border:hover {
+    background: transparent; /* Make button background transparent on hover */
+    box-shadow: 0 0 10px 4px rgba(255, 0, 0, 0.7), /* Red */
+                0 0 10px 4px rgba(255, 255, 0, 0.7), /* Yellow */
+                0 0 10px 4px rgba(0, 255, 0, 0.7), /* Green */
+                0 0 10px 4px rgba(0, 255, 255, 0.7), /* Cyan */
+                0 0 10px 4px rgba(0, 0, 255, 0.7), /* Blue */
+                0 0 10px 4px rgba(255, 0, 255, 0.7); /* Magenta */
+  }
+
+  .btn-content {
+    @apply relative px-4 py-2 transition-all ease-in duration-75 rounded-lg;
+    background: transparent; /* No background for content, let parent handle it */
+    z-index: 1; /* On top of everything */
+  }
+
+  @keyframes gradient-border-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
