@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub } from 'react-icons/fa';
-import { SiTailwindcss, SiReactrouter, SiFirebase, SiExpress, SiJsonwebtokens, SiMongodb, SiVercel, SiNetlify, SiVisualstudiocode, SiPostman } from 'react-icons/si';
+import { SiTailwindcss, SiReactrouter, SiFirebase, SiExpress, SiJsonwebtokens, SiMongodb, SiVercel, SiNetlify, SiVisualstudiocode, SiPostman, SiVite } from 'react-icons/si';
 
 const Skills = () => {
   return (
     <motion.section
       id="skills"
-      className="py-20 bg-transparent"
+      className="py-10 bg-transparent"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
@@ -18,23 +18,24 @@ const Skills = () => {
           {[
             { icon: <FaHtml5 className="text-orange-500 text-6xl" />, name: 'HTML5' },
             { icon: <FaCss3Alt className="text-blue-500 text-6xl" />, name: 'CSS3' },
+            { icon: <SiTailwindcss className="text-cyan-400 text-6xl" />, name: 'Tailwind CSS' },
             { icon: <FaJs className="text-yellow-500 text-6xl" />, name: 'JavaScript (ES6)' },
             { icon: <FaReact className="text-cyan-500 text-6xl" />, name: 'React' },
-            { icon: <SiTailwindcss className="text-cyan-400 text-6xl" />, name: 'Tailwind CSS' },
             { icon: <p className="text-purple-500 text-6xl font-bold">D</p>, name: 'Daisy UI' },
             { icon: <SiReactrouter className="text-red-500 text-6xl" />, name: 'React Router' },
-            { icon: <SiFirebase className="text-yellow-500 text-6xl" />, name: 'Firebase' },
+            { icon: <SiFirebase className="text-orange-500 text-6xl" />, name: 'Firebase' },
             { icon: <FaNodeJs className="text-green-500 text-6xl" />, name: 'Node.js' },
             { icon: <SiExpress className="text-gray-500 text-6xl" />, name: 'Express.js' },
             { icon: <SiJsonwebtokens className="text-purple-500 text-6xl" />, name: 'JWT' },
             { icon: <SiMongodb className="text-green-500 text-6xl" />, name: 'MongoDB' },
             { icon: <SiVercel className="text-white text-6xl" />, name: 'Vercel' },
             { icon: <SiNetlify className="text-cyan-500 text-6xl" />, name: 'Netlify' },
-            { icon: <p className="text-blue-500 text-6xl font-bold">S</p>, name: 'Surge' },
             { icon: <SiVisualstudiocode className="text-blue-500 text-6xl" />, name: 'VS Code' },
             { icon: <FaGitAlt className="text-red-500 text-6xl" />, name: 'Git' },
             { icon: <FaGithub className="text-white text-6xl" />, name: 'GitHub' },
             { icon: <SiPostman className="text-orange-500 text-6xl" />, name: 'Postman' },
+            { icon: <SiVite className="text-blue-400 text-6xl" />, name: 'Vite' }
+            /* { icon: <p className="text-blue-500 text-6xl font-bold">S</p>, name: 'Surge' }, */
           ].map((skill, index) => (
             <motion.div
               key={index}

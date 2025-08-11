@@ -32,13 +32,13 @@ const Hero = () => {
             I am a passionate MERN Stack Web Developer specializing in <br/> creating beautiful, functional, and high-performance web applications.
           </p>
           <div className="mt-8 flex justify-center md:justify-start gap-4">
-            <button href="https://www.linkedin.com/in/sharful-islam/" target="_blank" rel="noopener noreferrer" className="flex  border border-gray-400 rounded-xl p-3 hover:bg-gray-800 gap-2">
+            <button href="https://www.linkedin.com/in/sharful-islam/" target="_blank" rel="noopener noreferrer" className="flex  border text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300 rounded-lg p-3 gap-2">
               <FaLinkedin className="text-2xl" />LinkedIn
             </button>
-            <button href="https://github.com/Sharful-Islam" target="_blank" rel="noopener noreferrer" className="flex border border-gray-400 rounded-xl p-3 hover:bg-gray-800 gap-2">
+            <button href="https://github.com/Sharful-Islam" target="_blank" rel="noopener noreferrer" className="flex border text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300 rounded-lg p-3 gap-2">
               <FaGithub className="text-2xl" />GitHub
             </button>
-            <button href="https://www.facebook.com/sharful.islam.10/" target="_blank" rel="noopener noreferrer" className="flex border border-gray-400 rounded-xl p-3 hover:bg-gray-800 gap-2">
+            <button href="https://www.facebook.com/sharful.islam.10/" target="_blank" rel="noopener noreferrer" className="flex border text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300 rounded-lg p-3 gap-2">
               <FaFacebook className="text-2xl" />Facebook
             </button>
           </div>
