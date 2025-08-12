@@ -22,6 +22,8 @@ I specialize in MERN Stack Web Development and continuously enhance my skill set
 
 <li>Languages: HTML, CSS, JavaScript.</li>
 <li>Frameworks & Libraries: React, TailwindCSS, DaisyUI, Bootstrap.</li>
+<li>Databases: Firebase, MongoDB, Vercel, Netlify, Surge, etc.</li>
+<li>Tools: VS Code, Git, GitHub, Postman, Thunder Client, MongoDB Compass, etc.</li>
 <li>Key Competencies:
 Responsive Web Development,
 User-friendly Interface Development,
