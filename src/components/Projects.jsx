@@ -39,12 +39,12 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">My Projects</h2>
         <div className="flex flex-col space-y-16">
           {projects.map((project, index) => (
             <div
               key={index}
-                            className="project-card bg-gray-800 bg-opacity-10 border border-gray-700 rounded-xl overflow-hidden"
+                            className="project-card  max-w-8xl mx-auto  bg-gray-800 bg-opacity-10 border border-gray-700 rounded-xl overflow-hidden"
             >
               <div className={`flex flex-col md:flex-row ${index === 1 ? 'md:flex-row-reverse' : ''}`}>
                 <div className="md:w-1/2">

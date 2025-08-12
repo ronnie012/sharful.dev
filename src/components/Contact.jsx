@@ -11,7 +11,7 @@ export default function Contact() {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <div className="max-w-6xl mx-auto px-6"> {/* This div now wraps the h2, p, and the main content div */}
+      <div className="max-w-8xl mx-auto px-6"> {/* This div now wraps the h2, p, and the main content div */}
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-8 text-gray-100 text-center"
           initial={{ opacity: 0 }}

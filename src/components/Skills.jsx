@@ -6,14 +6,14 @@ const Skills = () => {
   return (
     <motion.section
       id="skills"
-      className="py-10 bg-transparent"
+      className="py-8 bg-transparent"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <div className="max-w-6xl mx-auto px-6">
-        <h3 className="text-4xl md:text-5xl  font-bold mb-12 text-gray-100 text-center">Skills</h3>
+      <div className="max-w-8xl  mx-auto px-6">
+        <h3 className="text-4xl md:text-5xl  font-bold mb-12 text-gray-100 text-center">My Skills and Expertise</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
             { icon: <SiTailwindcss className="text-cyan-400 text-6xl" />, name: 'Tailwind CSS' },
