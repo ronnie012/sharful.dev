@@ -10,7 +10,7 @@ I am Md Sharful Islam, a highly motivated MERN Stack Web Developer with expertis
 
 
 # Live Link 
-📟 [Md Sharful Islam](https://ronnie012.github.io/sharful.dev/):    [https://ronnie012.github.io/sharful-012/]
+📟 [Md Sharful Islam](https://ronnie012.github.io/sharful.dev/):    [https://ronnie012.github.io/sharful.dev/]
 
 
 # Screenshot of My Live Portfolio Website
