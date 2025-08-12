@@ -45,8 +45,8 @@ const Hero = () => {
           <div className="mt-8 flex justify-center md:justify-start gap-4">
           <a href="https://drive.google.com/file/d/1rZB-20WeviLwo7dudoeTdYsiKzvyglQ4/view?usp=sharing" download target="_blank" rel="noopener noreferrer" className="btn-custom-gradient-border group rounded-xl">
             <span className="btn-content flex items-center gap-2">
-              <FaDownload />
-              Download Resume
+              Download Resume <FaDownload className="transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:translate-x-3 group-hover:translate-y-3" />
+              
             </span>
           </a>
         </div>

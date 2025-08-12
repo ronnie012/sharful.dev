@@ -86,7 +86,7 @@ const Header = () => {
               isScrollingByClick.current = true;
               setActiveLink('#hero');
             }}
-            className={`flex items-center gap-2 border border-gray-400 rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#hero' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300' }`}
+            className={`flex items-center gap-2 border rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#hero' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300  border-blue-500 hover:border-gray-300' }`}
           >
             <FaHome />
             Home
@@ -98,7 +98,7 @@ const Header = () => {
               isScrollingByClick.current = true;
               setActiveLink('#about');
             }}
-            className={`flex items-center gap-2 border border-gray-400 rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#about' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300'}`}
+            className={`flex items-center gap-2 border rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#about' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border border-blue-500 hover:border-gray-300'}`}
           >
             <FaUser />
             About
@@ -110,7 +110,7 @@ const Header = () => {
               isScrollingByClick.current = true;
               setActiveLink('#skills');
             }}
-            className={`flex items-center gap-2 border border-gray-400 rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#skills' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300'}`}
+            className={`flex items-center gap-2 border rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#skills' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border border-blue-500 hover:border-gray-300'}`}
           >
             <FaCog />
             Skills
@@ -122,7 +122,7 @@ const Header = () => {
               isScrollingByClick.current = true;
               setActiveLink('#projects');
             }}
-            className={`flex items-center gap-2 border border-gray-400 rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#projects' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300'}`}
+            className={`flex items-center gap-2 border rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#projects' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border border-blue-500 hover:border-gray-300'}`}
           >
             <FaProjectDiagram />
             Projects
@@ -134,7 +134,7 @@ const Header = () => {
               isScrollingByClick.current = true;
               setActiveLink('#training');
             }}
-            className={`flex items-center gap-2 border border-gray-400 rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#training' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300'}`}
+            className={`flex items-center gap-2 border rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#training' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border border-blue-500 hover:border-gray-300'}`}
           >
             <FaAward />
             Training
@@ -146,7 +146,7 @@ const Header = () => {
               isScrollingByClick.current = true;
               setActiveLink('#contact');
             }}
-            className={`flex items-center gap-2 border border-gray-400 rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#contact' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300'}`}
+            className={`flex items-center gap-2 border rounded-lg px-4 py-2 text-sm transition-colors duration-300 ${activeLink === '#contact' ? 'text-gray-300 border-gray-300' : 'text-blue-500 hover:text-gray-300 border border-blue-500 hover:border-gray-300'}`}
           >
             <FaEnvelope />
             Contact

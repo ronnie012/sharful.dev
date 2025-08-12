@@ -53,8 +53,8 @@ const ParticleBackground = () => {
           color: "random",
           distance: 150,
           enable: true,
-          opacity: 0.8,
-          width: 0.3,
+          opacity: 0.4,
+          width: 0.4,
         },
         collisions: {
           enable: true,

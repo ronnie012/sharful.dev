@@ -85,9 +85,9 @@ body {
 
 /* Typed.js Cursor Styling */
 .typed-cursor {
-  font-size: 2.5rem; /* Smaller font size */
+  font-size: 1rem; /* Smaller font size */
   line-height: 1.5; /* Ensure single line */
-  width: 1px; /* Thin */
+  width: 2px; /* Thin */
   height: 1em; /* Match font height */
   vertical-align: middle; /* Align with text */
   opacity: 1; /* Ensure visibility */
@@ -98,3 +98,4 @@ body {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
