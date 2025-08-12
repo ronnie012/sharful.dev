@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         <div className="md:w-1/4 mt-8 md:mt-0 flex justify-center">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full">
-            <img src="/src/assets/portfolio-profile-photo_md-sharful-islam.png" alt="Md Sharful Islam" className="w-full h-full object-cover rounded-full ring-4 ring-offset-4 ring-offset-slate-900 ring-green-500" />
+            <img src="/portfolio-profile-photo_md-sharful-islam.png" alt="Md Sharful Islam" className="w-full h-full object-cover rounded-full ring-4 ring-offset-4 ring-offset-slate-900 ring-green-500" />
           </div>
         </div>
       </div>
