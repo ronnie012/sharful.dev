@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import projects from '../data/projects';
-import { FaReact, FaNodeJs, FaGithub, FaGlobe } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiStripe } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaGithub, FaGlobe, FaCode } from 'react-icons/fa';
+import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiStripe, SiVite } from 'react-icons/si';
 import { FiArrowRight } from 'react-icons/fi';
 
 const techIcons = {
@@ -14,6 +14,9 @@ const techIcons = {
   'Firebase': <SiFirebase className="text-yellow-500" />,
   'Tailwind CSS': <SiTailwindcss className="text-cyan-400" />,
   'Stripe': <SiStripe className="text-purple-500" />,
+  'Vite': <SiVite className="text-purple-500" />, // Using purple for Vite
+  'React Router': <FaCode className="text-blue-500" />, // Generic code icon for React Router
+  'Daisy UI': <SiTailwindcss className="text-blue-300" />, // Using Tailwind CSS icon for Daisy UI
 };
 
 const ProjectDetails = () => {
