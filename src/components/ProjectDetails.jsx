@@ -7,13 +7,13 @@ import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiStripe } from 'react
 import { FiArrowRight } from 'react-icons/fi';
 
 const techIcons = {
-  'React': <FaReact className="text-cyan-500 text-xl" />,
-  'Node.js': <FaNodeJs className="text-green-500 text-xl" />,
-  'Express.js': <SiExpress className="text-gray-500 text-xl" />,
-  'MongoDB': <SiMongodb className="text-green-500 text-xl" />,
-  'Firebase': <SiFirebase className="text-yellow-500 text-xl" />,
-  'Tailwind CSS': <SiTailwindcss className="text-cyan-400 text-xl" />,
-  'Stripe': <SiStripe className="text-purple-500 text-xl" />,
+  'React': <FaReact className="text-cyan-500" />,
+  'Node.js': <FaNodeJs className="text-green-500" />,
+  'Express.js': <SiExpress className="text-gray-500" />,
+  'MongoDB': <SiMongodb className="text-green-500" />,
+  'Firebase': <SiFirebase className="text-yellow-500" />,
+  'Tailwind CSS': <SiTailwindcss className="text-cyan-400" />,
+  'Stripe': <SiStripe className="text-purple-500" />,
 };
 
 const ProjectDetails = () => {
@@ -49,8 +49,8 @@ const ProjectDetails = () => {
               <h3 className="text-2xl font-bold mb-2">Main Technology Stack</h3>
               <ul className="flex flex-wrap gap-2">
                 {project.mainTechnology.map((tech, index) => (
-                  <li key={index} className="flex items-center bg-gray-700 rounded-full px-3 py-1 text-sm">
-                    {techIcons[tech]} {tech}
+                  <li key={index} className="flex items-center bg-gray-700 rounded-full px-4 py-2 text-base">
+                    {React.cloneElement(techIcons[tech], { className: `${techIcons[tech].props.className} text-2xl mr-2` })} {tech}
                   </li>
                 ))}
               </ul>
