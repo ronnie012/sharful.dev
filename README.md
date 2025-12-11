@@ -10,7 +10,7 @@ I am Md Sharful Islam, a highly motivated MERN Stack Web Developer with expertis
 
 
 # Live Link 
-📟 [Md Sharful Islam](https://ronnie012.github.io/sharful.dev/):    [https://ronnie012.github.io/sharful.dev/]
+📟 [Md Sharful Islam](https://sharful-dev.vercel.app/):    [https://sharful-dev.vercel.app/]
 
 
 # Screenshot of My Live Portfolio Website
@@ -37,11 +37,11 @@ Below is a selection of projects I have built that demonstrate my ability to sol
 
 
 
-1. [Insurance Policy Management Website](https://assured-life.web.app/). A responsive web application for booking lawyer appointments, built with HTML, TailwindCSS, DaisyUI, JavaScript, React, React Router, Firebase, Express.js, and MongoDB.
+1. [Insurance Policy Management Website](https://assured-life-upgraded.web.app/). A responsive web application for booking lawyer appointments, built with HTML, TailwindCSS, DaisyUI, JavaScript, React, React Router, Firebase, Express.js, and MongoDB.
 
 2. [Tour Package Management Website](https://tour-zen-012-upgraded.web.app/). A responsive web application for booking lawyer appointments, built with HTML, TailwindCSS, DaisyUI, JavaScript, React, React Router, Firebase, Express.js, and MongoDB.
 
-3. [Freelance Task Marketplace Platform](https://gig-connect-012.web.app/). A responsive web application for booking lawyer appointments, built with HTML, TailwindCSS, DaisyUI, JavaScript, React, React Router, Firebase, Express.js, and MongoDB.
+3. [Freelance Task Marketplace Platform](https://gig-connect-012-upgraded.web.app/). A responsive web application for booking lawyer appointments, built with HTML, TailwindCSS, DaisyUI, JavaScript, React, React Router, Firebase, Express.js, and MongoDB.
 
 4. [Modern App Store Website](https://app-store-012.web.app/). A responsive web application for booking lawyer appointments, built with HTML, TailwindCSS, DaisyUI, JavaScript, React, and React Router.
 
@@ -69,10 +69,11 @@ My fascination with technology began at a young age, starting with basic HTML an
 # Contact Me
 I’m always excited to collaborate on new projects or discuss potential opportunities. Feel free to reach out: <br>
 Email: m.sharful.i247@gmail.com <br>
-Phone: +880 187065 0965 (WhatsApp) <br>
 WhatsApp: +880 187 065 0965 <br>
+Phone: +880 187 065 0965 <br>
+LinkedIn: https://linkedin.com/in/md-sharful-islam <br>
 GitHub: [ronnie012](https://github.com/ronnie012)
 
 <br>
 
-Built with passion by Md Sharful Islam  © 2025 Md Sharful Islam. All rights reserved.
+Built with passion by Md Sharful Islam  © 2026 Md Sharful Islam. All rights reserved.
