@@ -32,7 +32,7 @@ const Hero = () => {
             I am a passionate MERN Stack Web Developer specializing in <br/> creating beautiful, functional, and high-performance web applications.
           </p>
           <div className="mt-8 flex justify-center md:justify-start gap-4">
-            <a href="https://www.linkedin.com/in/sharful-islam/" target="_blank" rel="noopener noreferrer" className="flex  border text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300 rounded-lg p-3 gap-2">
+            <a href="https://www.linkedin.com/in/md-sharful-islam/" target="_blank" rel="noopener noreferrer" className="flex  border text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300 rounded-lg p-3 gap-2">
               <FaLinkedin className="text-2xl" />LinkedIn
             </a>
             <a href="https://github.com/ronnie012" target="_blank" rel="noopener noreferrer" className="flex border text-blue-500 hover:text-gray-300 border-blue-500 hover:border-gray-300 rounded-lg p-3 gap-2">

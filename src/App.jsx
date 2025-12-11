@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import ProjectDetails from './components/ProjectDetails';
 import Contact from './components/Contact';
 import Training from './components/Training';
+import Education from './components/Education';
 import Footer from './components/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
 import ParticleBackground from './components/ParticleBackground';
@@ -29,6 +30,7 @@ function App() {
                   <Skills />
                   <Projects />
                   <Training />
+                  <Education />
                   <Contact />
                 </>
               }

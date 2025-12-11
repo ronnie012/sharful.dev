@@ -22,7 +22,7 @@ export default function About() {
           About Me
         </motion.h2>
         <motion.p
-          className="border border-gray-700 rounded-xl p-8  text-lg md:text-xl text-gray-300 mb-12 text-center  mx-auto"
+          className="border border-gray-700 rounded-xl p-8  text-lg md:text-xl text-gray-300 mb-12 text-centr  mx-auto"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
