@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const SocialLinks = () => {
   return (
-    <div className="flex space-x-4 justify-center">
+    <div className="flex space-x-8 justify-center">
       <a href="https://www.linkedin.com/in/md-sharful-islam/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
         <FaLinkedin className="text-2xl" />
       </a>

@@ -9,10 +9,10 @@ export default function Footer() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
     >
-      <div className="max-w-6xl mx-auto pl-4 pr-4 flex items-center justify-between">
-        <p className="text-2xl font-bold">&lt;Sharful.Dev/&gt;</p>
-        <div className="flex flex-col items-center">
-          <p className="text-lg mb-2">© 2025 Sharful. All rights reserved.</p>
+      <div className="max-w-7xl mx-auto pl-4 pr-4 flex items-center justify-between">
+        <p className="text-2xl font-bold mr-36">&lt;Sharful.Dev/&gt;</p>
+        <div className="flex gap-40 flex-cl items-centr">
+          <p className="text-lg mr-12 mb-0">© 2026 Sharful. All rights reserved.</p>
           <SocialLinks />
         </div>
         <div className="w-[150px]"></div> {/* Placeholder to balance the left title */}

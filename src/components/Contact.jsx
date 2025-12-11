@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaPhone, FaWhatsapp, FaUser, FaComment, FaPaperPlane } from 'react-icons/fa'; // Import icons
+import { FaEnvelope, FaPhone, FaWhatsapp, FaUser, FaComment, FaPaperPlane, FaLinkedin } from 'react-icons/fa'; // Import icons
 
 export default function Contact() {
   return (
@@ -26,7 +26,7 @@ export default function Contact() {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
         >
-          Feel free to reach out via email or the form below.
+          Feel free to reach out any time of your convenience via Email, WhatsApp, Phone, or the form below.
         </motion.p>
         <div className="border border-gray-700 rounded-xl p-8 grid grid-cols-1 md:grid-cols-2 gap-8"> {/* Main content div with grid */}
           {/* Left Column: Contact Info */}
@@ -40,20 +40,31 @@ export default function Contact() {
               </div>
               <span className="text-gray-300 text-lg mt-2 ml-10">m.sharful.i247@gmail.com</span>
             </div>
+            
             <div className="flex flex-col">
               <div className="flex items-center space-x-4">
-                <FaPhone className="text-green-500 text-3xl pt-1" />
-                <span className="text-gray-100">Phone:</span>
-              </div>
-              <span className="text-gray-300 text-lg mt-2 ml-10">+880 187 065 0965</span>
-            </div>
-            <div className="flex flex-col">
-              <div className="flex items-center space-x-4">
-                <FaWhatsapp className="text-green-500 text-3xl pt-1" />
+                <FaWhatsapp className="text-blue-500 text-3xl pt-1" />
                 <span className="text-gray-100">WhatsApp:</span>
               </div>
               <span className="text-gray-300 text-lg mt-2 ml-10">+880 187 065 0965</span>
             </div>
+
+            <div className="flex flex-col">
+              <div className="flex items-center space-x-4">
+                <FaPhone className="text-blue-500 text-3xl pt-1" />
+                <span className="text-gray-100">Phone:</span>
+              </div>
+              <span className="text-gray-300 text-lg mt-2 ml-10">+880 187 065 0965</span>
+            </div>
+            
+            <div className="flex flex-col">
+              <div className="flex items-center space-x-4">
+                <FaLinkedin className="text-blue-500 text-3xl pt-1" />
+                <span className="text-gray-100">LinkedIn:</span>
+              </div>
+              <span className="text-gray-300 text-lg mt-2 ml-10">https://www.linkedin.com/in/md-sharful-islam</span>
+            </div>
+
           </div>
 
           {/* Right Column: Contact Form */}
